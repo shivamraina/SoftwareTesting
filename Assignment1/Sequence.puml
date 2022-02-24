@@ -1,0 +1,66 @@
+@startuml
+actor User
+participant Bookgenics
+participant Database
+
+activate Bookgenics
+activate Database
+
+User->Bookgenics : Register
+Bookgenics->Database: User Registered
+User->Bookgenics: Login
+Bookgenics->Database: Details Checked
+
+alt if user is registered
+Database-->Bookgenics: Valid User
+Bookgenics->User: Login Successful
+else
+Database-->Bookgenics: Invalid User
+Bookgenics->User: Login Rejected
+end
+
+User->Bookgenics: Sort Books
+Bookgenics-->User: Books Shown
+
+User->Bookgenics: Filter Books
+Bookgenics->Database: Filtering Books
+Database-->Bookgenics: Filtered Books
+Bookgenics->User: Books Shown
+
+User->Bookgenics: Read Content
+Bookgenics->Database: Get Content
+Database-->Bookgenics: Content
+Bookgenics->User: Show Content
+
+User->Bookgenics: Update/Delete Book
+Bookgenics->Database: Book Updated/Deleted
+
+User->Bookgenics: Favorite/Unfavorite Book
+Bookgenics->Database: Book Favorited/Unfavorited
+
+User->Bookgenics: Input Book For Prediction
+Bookgenics-->User: Predicted Genres
+
+User->Bookgenics: Add Book
+Bookgenics->Database: Book Searching
+
+alt if book is not found in database
+Database-->Bookgenics: Book Not Found
+Bookgenics->Database: Adding Book
+Database->Bookgenics: Book Added
+Bookgenics->User: Request Successful
+else
+Database-->Bookgenics: Book Found
+Bookgenics->User: Request Rejected
+end
+
+User->Bookgenics: Change User Data
+Bookgenics->Database: User Data Changed
+
+User->Bookgenics: Logout
+Bookgenics->User: Logout Successful
+
+destroy Bookgenics
+destroy Database
+
+@enduml
