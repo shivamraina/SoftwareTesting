@@ -26,7 +26,7 @@
 This project uses NLP and MERN stack integrated together for working.
 
 ## UseCase Diagram
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../Assignment2/UseCase.png" width="85%" height="70%"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../Assignment1/UseCase.png" width="85%" height="70%"><br>
 
 ## Sequence Diagram
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="../Assignment2/Sequence.png" width="85%" height="70%"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="../Assignment1/Sequence.png" width="85%" height="70%"><br>
