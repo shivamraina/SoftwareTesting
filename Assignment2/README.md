@@ -1,4 +1,4 @@
-# BookGenics
+# BookGenics <a href="https://github.com/shivamraina/bookgenics-proto" target="_blank">
 <strong>This is the AI Powered Story Book Genre Classifier </strong>
 
 <h3>Instructions</h3>
