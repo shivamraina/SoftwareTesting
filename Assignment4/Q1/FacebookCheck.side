@@ -1,0 +1,178 @@
+{
+  "id": "f6fd3ed1-903c-471d-8aee-daf3ab25a858",
+  "version": "2.0",
+  "name": "FacebookCheck",
+  "url": "https://mbasic.facebook.com",
+  "tests": [{
+    "id": "904e2489-ee76-4121-a28b-d234a8159895",
+    "name": "Untitled",
+    "commands": [{
+      "id": "bf84f625-1738-40f1-961e-f0bb52d6064a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f01f117a-f1d9-4b6a-9290-49e9792f54bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "802x594",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9cbac44-112c-4c38-9d09-1cb64af4e355",
+      "comment": "",
+      "command": "click",
+      "target": "id=m_login_email",
+      "targets": [
+        ["id=m_login_email", "id"],
+        ["name=email", "name"],
+        ["css=#m_login_email", "css:finder"],
+        ["xpath=//input[@id='m_login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31575635-5fe4-41e4-a541-4d7db7daecab",
+      "comment": "",
+      "command": "type",
+      "target": "id=m_login_email",
+      "targets": [
+        ["id=m_login_email", "id"],
+        ["name=email", "name"],
+        ["css=#m_login_email", "css:finder"],
+        ["xpath=//input[@id='m_login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "rainashivam698@gmail.com"
+    }, {
+      "id": "81019dfc-8dd0-4dc0-876c-7b6c03ea16fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.bf", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//section[@id='password_input_with_placeholder']/input", "xpath:idRelative"],
+        ["xpath=//section/input", "xpath:position"]
+      ],
+      "value": "NahiBtaunga@123"
+    }, {
+      "id": "c95b9454-9306-4159-94bd-605f60618b81",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.bk", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8770b5-ec30-40c8-b3f0-d9f73fce8447",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bo",
+      "targets": [
+        ["css=.bo", "css:finder"],
+        ["xpath=//input[@value='OK']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/table/tbody/tr/td/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b7554c-a765-44e0-9a69-e1b52eb757cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=mbasic_logout_button",
+      "targets": [
+        ["id=mbasic_logout_button", "id"],
+        ["linkText=Log Out (Shivam)", "linkText"],
+        ["css=#mbasic_logout_button", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out (Shivam)')]", "xpath:link"],
+        ["xpath=//a[@id='mbasic_logout_button']", "xpath:attributes"],
+        ["xpath=//div[@id='viewport']/div[3]/div/table/tbody/tr/td[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout.php?h=AfeqZO96-3wmvlqA2XE&t=1648758045&button_name=logout&button_location=footer&source=mbasic_logout_button&ref_component=mbasic_footer&ref_page=%2Fwap%2Fhome.php&refid=8')]", "xpath:href"],
+        ["xpath=//div/table/tbody/tr/td[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out (Shivam)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5607579-ef2b-4eb7-9ddc-6f13ce76b308",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bh",
+      "targets": [
+        ["css=.bh", "css:finder"],
+        ["xpath=//input[@value='Shivam Raina']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/table/tbody/tr/td/div/div[2]/div/table/tbody/tr/td[2]/form/div/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5ba31ca-1c97-47d7-af18-85e7a34870d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=mbasic_logout_button",
+      "targets": [
+        ["id=mbasic_logout_button", "id"],
+        ["linkText=Log Out (Shivam)", "linkText"],
+        ["css=#mbasic_logout_button", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out (Shivam)')]", "xpath:link"],
+        ["xpath=//a[@id='mbasic_logout_button']", "xpath:attributes"],
+        ["xpath=//div[@id='viewport']/div[3]/div/table/tbody/tr/td[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout.php?h=AfeqZO96-3wmvlqAoaA&t=1648758067&button_name=logout&button_location=footer&source=mbasic_logout_button&ref_component=mbasic_footer&ref_page=%2Fwap%2Fhome.php&refid=8')]", "xpath:href"],
+        ["xpath=//div/table/tbody/tr/td[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out (Shivam)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31c3fe48-c757-4676-bd27-41ba91f40f88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bj",
+      "targets": [
+        ["css=.bj", "css:finder"],
+        ["xpath=//img[@alt='gear']", "xpath:img"],
+        ["xpath=//div[@id='root']/table/tbody/tr/td/div/div[2]/div/table/tbody/tr/td[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf3afb68-0b9d-423c-91ad-233c431ce06c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bx:nth-child(2) .bn",
+      "targets": [
+        ["css=.bx:nth-child(2) .bn", "css:finder"],
+        ["xpath=//input[@value='Remove account from device']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/table/tbody/tr/td/div[3]/div/form/table/tbody/tr/td/header/h3/input", "xpath:idRelative"],
+        ["xpath=//h3/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "595e1eb0-dcb7-4ebb-b2c8-518dd40171b0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "060f5cd3-6833-4de6-93d9-f15c5efc6a8d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["904e2489-ee76-4121-a28b-d234a8159895"]
+  }],
+  "urls": ["https://mbasic.facebook.com/"],
+  "plugins": []
+}
